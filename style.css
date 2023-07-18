@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+}
+
+nav {
+        display: flex;
+        height: 50px;
+        background-color: #a2cbb6;
+        font-size: 20px;
+        margin: 10 px;
+
+
+}
+
+nav > div {
+    font-size: 20px;
+    margin: 10px;
+    color: #f3dba8;
+
+}
+
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #bada55;
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+}
+
+.container {
+    background-color: royalblue;
+    height: 100vh;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    align-items: center;
+
+
+/* x-axis main */
+
+justify-content: flex-end;
+justify-content: flex-start;
+justify-content: center;
+justify-content: space-around;
+justify-content: space-between;
+justify-content: space-evenly;
+
+/* y-axis cross */
+align-items: flex-start;
+align-items: flex-end;
+align-items: flex-start;
+align-items: center;
+
+/* changing the main x-axis */
+flex-direction: row;
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+
+/* x-axis cross */
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+
+
+flex-wrap: wrap;
+}                   /*IMPORTANT FOR THIS TO WRAP FLEX CODE*/
+
+.box:nth-child(1){
+    background-color: hotpink;
+    /* align-self: flex-start; */
+}
+.box:nth-child(5){
+background-color: rebeccapurple;
+/* self-align: flex-end; */
+
+}
+
+.box:nth-child(8){
+    background-color: peachpuff;
+    /* self-align: flex-start; */
+}
+
+}
