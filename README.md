@@ -1,6 +1,6 @@
 ## Blackjack
 
-GAme build
+Game build
 
 ## RESOURCES ##
 1. (StepbyStep) https://scrimba.com/playlist/p3py7U7
@@ -19,86 +19,18 @@ https://www.youtube.com/watch?v=bMYCWccL-3U
 5. https://code-boxx.com/javascript-blackjack/
 
 
+Create a deck
+shuffle it
+deal cards to the dealer and the player
+keep running sum of each hand
+optimize/adjust value of ace from 1 to 11
+if you have blackjack —ace of spades and jack of spades, automatically win
+dealer forced hit option if under 16 (adjustable to 15 and 17)
+if you get five cards without going over, you win
 
 
+option to hit (draw additional cards) or stay (hold at current sum and submit hand for compare count)
 
-A. PHASES
-   1. "Pure" text/code based
-   2. 
+bid option to adjust value of hand bet for current hand
 
-
-B. 
-
- 1. Pseudocode components and methods
-        a) Loops
-        b)
-    2. Classes to create and code for
-    3. Buttons, Cards, and Visual Elements 
-
-
-
-
-
-
-
-Getting Started
-Live Server Extension
-Create Cards - HTML
-Create the Game Play Grid
-Create Cards Dynamically - JS Code
-Initialise Card Positions
-Load Game and Start Game
-Stack Cards
-Flip Cards
-Shuffle Cards
-Deal Cards
-Choose Card
-Styling and Layout
-Animation
-Responsive Layout
-Local Storage
-<ul
-
-
-
-
-
-
-
-
-
-
-Steps
-Wireframing
-Components
-
-
-Phases
-
-Pure Text based
-
-
-does it function
-multipple rouunds 
-multiplayer
-
-win and lose state
-
-
-
-essential steps
-1. place first card to player
-2. place second card to player
-3. add two cards, provide sum
-
-
-
-
-
-steps
-
-1. create deck of cards
-2. optional shuffle deck
-3. buttons for number of players on start screen
-4. shuffle button
-5. 
+counting cards option (running counting cards option to maximize bet)
