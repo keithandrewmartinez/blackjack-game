@@ -1,53 +1,9 @@
 
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-#dealer-cards img {
-    height: 175px;
-    width: 125px;
-    margin: 1px;
-
-}
-
-
-#player-cards img {
-    height: 175px;
-    width: 125px;
-    margin: 1px;
-
-}
-
-#hit{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-}
-
-#stay{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-}
-
-#bet{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-}
-
-
-
-
-
-
-
 
 
 * {
-    margin: 0;
+    margin: 100;
 }
 
 nav {
@@ -67,8 +23,70 @@ nav > div {
 
 }
 
+.container {
+    background-color: green;
+    height: 100vh;
+    display: flex;
+
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    align-items: center; 
+}
 
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(9, 102, 9);
+}
+
+#dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 10px;
+}
+
+
+#player-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 10px;
+}
+
+#hit {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#stay {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#bet {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+#results {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* 
 .box {
     width: 50px;
     height: 50px;
@@ -76,17 +94,10 @@ nav > div {
     margin: 10px;
     font-size: 20px;
     display: flex;
-}
+} */
 
-/* 
 
-.container {
-    background-color: royalblue;
-    height: 100vh;
-    display: flex;
-    /* justify-content: flex-end; */
-    /* justify-content: center; */
-    align-items: center;
+
 
 
 /* x-axis main */
@@ -99,43 +110,29 @@ justify-content: space-between;
 justify-content: space-evenly;
 
 /* y-axis cross */
+
 align-items: flex-start;
 align-items: flex-end;
 align-items: flex-start;
 align-items: center;
 
 /* changing the main x-axis */
+
 flex-direction: row;
 flex-direction: row-reverse;
 flex-direction: column;
 flex-direction: column-reverse;
 
 /* x-axis cross */
+
 align-items: flex-start;
 align-items: flex-end;
 align-items: center;
 
 
 flex-wrap: wrap;
-}                   /*IMPORTANT FOR THIS TO WRAP FLEX CODE*/
+                 /*IMPORTANT FOR THIS TO WRAP FLEX CODE*/
 
-.box:nth-child(1){
-    background-color: hotpink;
-    /* align-self: flex-start; */
-}
-.box:nth-child(5){
-background-color: rebeccapurple;
-/* self-align: flex-end; */
-
-}
-
-.box:nth-child(8){
-    background-color: peachpuff;
-    /* self-align: flex-start; */
-}
-
-}
+ } 
 
 
-
- */

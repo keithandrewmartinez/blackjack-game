@@ -61,7 +61,7 @@ function startGame(){
             // console.log(hidden);
             // console.log(dealerSum); 
 
-    while (dealerSum < 17) {        // create while loop to repeatedly evaluate if the dealer should "hit" for a new card
+    while (dealerSum < 17) {     // create while loop to repeatedly evaluate if the dealer should "hit" for a new card
             // <img>                 // 
             let cardImg = document.createElement("img");
             let card = deck.pop();
@@ -151,7 +151,6 @@ function getValue(card){
     }
     return parseInt(value);
 }
-
 
 
 function checkAce(card) {
